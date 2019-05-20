@@ -18,7 +18,7 @@ npm i -S @sbjr-react-utils-components/icons
 ```js
 import React from 'react';
 import { render } from 'react-dom';
-import Icon, { CLASS_ICON } from '@Sbjr-React-Utils-Components/Icons';
+import Icon, { CLASS_ICON } from '@sbjr-react-utils-components/icons';
 
 render(
   (
@@ -36,7 +36,7 @@ render(
 ```js
 import React from 'react';
 import { render } from 'react-dom';
-import Icon, { CLASS_ICON } from '@Sbjr-React-Utils-Components/Icons';
+import Icon, { CLASS_ICON } from '@sbjr-react-utils-components/icons';
 
 class CustomComponent extends React.Component {
   constructor(props) {
@@ -77,7 +77,7 @@ render(
 ```js
 import React from 'react';
 import { render } from 'react-dom';
-import { Loader } from '@Sbjr-React-Utils-Components/Icons';
+import { Loader } from '@sbjr-react-utils-components/icons';
 
 render(
   (
@@ -89,12 +89,12 @@ render(
 );
 ```
 
-## ExamplesIcon Component
+## ExampleIcons Component
 
 ```js
 import React from 'react';
 import { render } from 'react-dom';
-import { ExampleIcons } from '@Sbjr-React-Utils-Components/Icons';
+import { ExampleIcons } from '@sbjr-react-utils-components/icons';
 
 render(
   (
