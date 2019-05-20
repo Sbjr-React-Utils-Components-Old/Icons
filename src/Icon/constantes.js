@@ -1,0 +1,33 @@
+const CLASS_ICON = {
+  ARCHIVE: 'fa-archive',
+  ARROW_CIRCLE_LEFT: 'fa-arrow-circle-left',
+  ATLAS: 'fa-atlas',
+  AWARD: 'fa-award',
+  BOOK_OPEN: 'fa-book-open',
+  BOX: 'fa-box',
+  BOX_OPEN: 'fa-box-open',
+  CHALKBOARD_TEACHER: 'fa-chalkboard-teacher',
+  CHART_BAR: 'fa-chart-bar',
+  CLIPBOARD_LIST: 'fa-clipboard-list',
+  COGS: 'fa-cogs',
+  COMMENT: 'fa-comment-alt',
+  CROSS: 'fa-times',
+  EDIT: 'fa-edit',
+  HEART: 'fa-heart',
+  JEDI: 'fa-jedi',
+  LAPTOP_CODE: 'fa-laptop-code',
+  LIST: 'fa-list',
+  LOADER: 'fa-circle-notch',
+  LOCK: 'fa-lock',
+  PLUS_CIRCLE: 'fa-plus-circle',
+  REFRESH: 'fa-redo-alt',
+  SHOPPING_CART: 'fa-shopping-cart',
+  SORT_DOWN: 'fa-sort-down',
+  SORT_UP: 'fa-sort-up',
+  TRASH: 'fa-trash',
+  USER_CIRCLE: 'fa-user-circle',
+};
+
+export {
+  CLASS_ICON,
+};
