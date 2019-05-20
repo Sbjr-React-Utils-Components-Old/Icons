@@ -1,7 +1,7 @@
 {
   "name": "@sbjr-react-utils-components/icons",
   "version": "1.0.0",
-  "description": "",
+  "description": "A React Icons Component based on Font-Awesome",
   "main": "./dist/bundle.js",
   "unpkg": "./dist/bundle.js",
   "scripts": {
