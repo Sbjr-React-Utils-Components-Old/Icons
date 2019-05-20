@@ -1,6 +1,6 @@
 {
   "name": "@sbjr-react-utils-components/icons",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/bundle.js",
   "unpkg": "./dist/bundle.js",
@@ -9,7 +9,7 @@
     "build": "webpack --mode=production",
     "build-doc": "esdoc",
     "lint": "eslint ./src",
-    "publish-package": "rm -rf ./dist ./node_modules && npm i && npm run build && npm publish",
+    "publish-package": "rm -rf ./dist ./node_modules && npm i && npm run build && npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
