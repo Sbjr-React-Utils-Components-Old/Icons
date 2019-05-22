@@ -28,6 +28,9 @@ module.exports = {
       },
     ],
   },
+  externals: {
+    react: 'commonjs react',
+  },
   output: {
     libraryTarget: 'commonjs2',
     path: path.resolve(__dirname, 'dist'),

@@ -2,7 +2,11 @@
 
 **A React Icons Component based on Font-Awesome**
 
+![React image](https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png)
+
 ## Install
+
+This module is a React component, so you must obviously have [react](https://github.com/facebook/react) installed.
 
 **CDN :**
 ```js
