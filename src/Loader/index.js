@@ -7,7 +7,7 @@ import './style.less';
 export default () => (
   <div className="loader-container">
     <Icon
-      classIcon={CLASS_ICON.LOADER}
+      classIcon={CLASS_ICON.CIRCLE_NOTCH}
     />
   </div>
 );

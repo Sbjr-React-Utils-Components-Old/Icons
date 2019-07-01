@@ -13,8 +13,8 @@ const Icon = ({
   ...rest
 }) => (
   <i
-    className={`fa ${classIcon} ${className} ${disabled ? 'disabled' : ''}`}
-    onClick={disabled ? () => {} : onClick}
+    className={`${classIcon} ${className} ${disabled ? 'disabled' : ''} ${onClick !== null ? 'clickable' : ''}`}
+    onClick={disabled || onClick === null ? () => {} : onClick}
     {...rest}
   >
   </i>
@@ -30,7 +30,7 @@ Icon.propTypes = {
 Icon.defaultProps = {
   className: '',
   disabled: false,
-  onClick: () => {},
+  onClick: null,
   classIcon: CLASS_ICON.CROSS,
 };
 
