@@ -1,4 +1,6 @@
-# Sbjr-React-Utils-Components - Icons
+# Sbjr-React-Utils-Components-Old - Icons
+
+**Legacy !** [See the new version](https://github.com/SbibouJr/Sbjr-React-Utils-Components/tree/master/packages/icons)
 
 **A React Icons Component based on Font-Awesome**
 
